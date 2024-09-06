@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9fa8b5;
+}
+
+.container-exo1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: auto;
+  margin-left: 30%;
+}
+
+.exo1 .exo1-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 3rem;
+  margin-left: 30%;
+}
+
+.exo1 .exo1-text p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.exo1 button {
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #f2f4f7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px;
+  color: rgb(13, 13, 13);
+}
+
+.exo1 .prompt-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #fbf703;
+}
+
+.exo1 .prompt-text:hover {
+  background-color: #573eb8;
+  color: white;
+}
+
+.exo1 .btn-bleu {
+  color: blue;
+}
+
+.exo1 .btn-bleu:hover {
+  color: white;
+  background-color: blue;
+  border: 2px solid rgb(1, 1, 50);
+}
+
+.exo1 .btn-rouge {
+  color: red;
+}
+
+.exo1 .btn-rouge:hover {
+  color: white;
+  background-color: rgb(174, 7, 7);
+  border: 2px solid rgb(110, 2, 2);
+}
+
+.exo1 .btn-vert {
+  color: green;
+}
+
+.exo1 .btn-vert:hover {
+  color: white;
+  background-color: green;
+  border: 2px solid rgb(1, 70, 1);
+}

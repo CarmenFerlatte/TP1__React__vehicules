@@ -1,0 +1,108 @@
+.exo3 {
+  width: 100%;
+  margin: 10px auto;
+  padding: 0;
+  color: #000;
+}
+
+.exo3 h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+.exo3 .reserver h4 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.exo3 .reserver button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.btn-reserver {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exo3-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+}
+
+.exo3-liste li {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+}
+
+.vehicule img {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #041f70;
+  color: #d4ffbc;
+  cursor: pointer;
+}
+
+.vehicule p {
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.carte-auto {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccebf8;
+  color: #003336;
+  box-shadow: 0 0 10px #b4bfc0;
+}
+
+.zone-image {
+  width: 25%;
+}
+
+.zone-image img {
+  width: 100%;
+}
+
+.zone-details {
+  width: 75%;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.zone-details h2 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0c8d4;
+}
+
+.container-exo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: auto;
+  margin-bottom: 50px;
+  padding: 0;
+  border: 5px solid green;
+}
+
+.exo2-liste {
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exo2-liste li {
+  margin-bottom: 30px;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.exo2-liste li:last-child {
+  border-bottom: none;
+}
+
+.exo2-liste li button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.exo2-liste li button:hover {
+  background-color: #1d1e1f;
+  color: white;
+}
+
+.exo2-liste li img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.exo2-liste p {
+  font-size: 1.3em;
+  color: #333;
+}

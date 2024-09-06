@@ -1,0 +1,94 @@
+.exo3 {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  color: #000;
+}
+
+.exo3 h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 42px;
+}
+
+.exo3 .reserver h4 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.exo3 .reserver button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.btn-reserver {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exo3-liste {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(228, 229, 231);
+}
+
+.vehicule img {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #041f70;
+  color: #d4ffbc;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+
+.exo3-liste .actif {
+  background-color: #4570f0;
+  color: white;
+}
+
+.carte-auto {
+  display: flex;
+  width: 1000px;
+  margin: 60px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccebf8;
+  color: #003336;
+  box-shadow: 0 0 10px #b4bfc0;
+}
+
+.zone-image {
+  width: 25%;
+  /*height: 100%; */
+}
+
+.zone-image img {
+  width: 100%;
+}
+
+.zone-details {
+  width: 75%;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.zone-details h2 {
+  margin: 0;
+  padding: 0;
+}
